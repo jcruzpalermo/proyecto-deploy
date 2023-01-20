@@ -1,5 +1,6 @@
 import { config } from '../../config/index.js'
 import mongoose from "mongoose";
+import logger from "../../loggers/Log4jsLogger.js"
 
 const init = async () => {
     try {
